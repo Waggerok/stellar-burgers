@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1749992723279" clover="3.2.0">
-  <project timestamp="1749992723279" name="All files">
+<coverage generated="1749996018922" clover="3.2.0">
+  <project timestamp="1749996018922" name="All files">
     <metrics statements="417" coveredstatements="204" conditionals="10" coveredconditionals="9" methods="30" coveredmethods="4" elements="457" coveredelements="217" complexity="0" loc="417" ncloc="417" packages="2" files="4" classes="4"/>
     <package name="services.slices">
       <metrics statements="135" coveredstatements="117" conditionals="10" coveredconditionals="9" methods="12" coveredmethods="4"/>
-      <file name="constructorSlice.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\burger\src\services\slices\constructorSlice.ts">
+      <file name="constructorSlice.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\stellar-burgers\src\services\slices\constructorSlice.ts">
         <metrics statements="85" coveredstatements="69" conditionals="5" coveredconditionals="5" methods="8" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -92,7 +92,7 @@
         <line num="84" count="1" type="stmt"/>
         <line num="85" count="1" type="stmt"/>
       </file>
-      <file name="ingredienceSlice.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\burger\src\services\slices\ingredienceSlice.ts">
+      <file name="ingredienceSlice.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\stellar-burgers\src\services\slices\ingredienceSlice.ts">
         <metrics statements="50" coveredstatements="48" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -148,7 +148,7 @@
     </package>
     <package name="utils">
       <metrics statements="282" coveredstatements="87" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="0"/>
-      <file name="burger-api.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\burger\src\utils\burger-api.ts">
+      <file name="burger-api.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\stellar-burgers\src\utils\burger-api.ts">
         <metrics statements="235" coveredstatements="85" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -386,7 +386,7 @@
         <line num="234" count="0" type="stmt"/>
         <line num="235" count="0" type="stmt"/>
       </file>
-      <file name="cookie.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\burger\src\utils\cookie.ts">
+      <file name="cookie.ts" path="C:\Users\Alexandr\Desktop\Home\gitProj\stellar-burgers\src\utils\cookie.ts">
         <metrics statements="47" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
