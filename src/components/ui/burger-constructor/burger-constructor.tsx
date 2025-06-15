@@ -33,7 +33,7 @@ export const BurgerConstructorUI: FC<BurgerConstructorUIProps> = ({
       <div
         className={`${styles.noBuns} ${styles.noBunsTop} ml-8 mb-4 mr-5 text text_type_main-default`}
       >
-        Выберите булки
+        Выберите верхнюю булку для бургера
       </div>
     )}
     <ul className={styles.elements}>
@@ -52,7 +52,7 @@ export const BurgerConstructorUI: FC<BurgerConstructorUIProps> = ({
         <div
           className={`${styles.noBuns} ml-8 mb-4 mr-5 text text_type_main-default`}
         >
-          Выберите начинку
+          Выберите начинку для бургера
         </div>
       )}
     </ul>
@@ -70,7 +70,7 @@ export const BurgerConstructorUI: FC<BurgerConstructorUIProps> = ({
       <div
         className={`${styles.noBuns} ${styles.noBunsBottom} ml-8 mb-4 mr-5 text text_type_main-default`}
       >
-        Выберите булки
+        Выберите нижнюю булку для бургера
       </div>
     )}
     <div className={`${styles.total} mt-10 mr-4`}>
@@ -96,7 +96,7 @@ export const BurgerConstructorUI: FC<BurgerConstructorUIProps> = ({
     {orderModalData && (
       <Modal
         onClose={closeOrderModal}
-        title={orderRequest ? 'Оформляем заказ...' : ''}
+        title={orderRequest ? 'Идёт оформление заказа...' : ''}
       >
         <OrderDetailsUI orderNumber={orderModalData.number} />
       </Modal>
