@@ -38,7 +38,7 @@ export const ProfileMenuUI: FC<ProfileMenuUIProps> = ({
     <p className='pt-20 text text_type_main-default text_color_inactive'>
       {pathname === '/profile'
         ? 'В этом разделе вы можете изменить свои персональные данные'
-        : 'В этом разделе вы можете просмотреть свою историю заказов'}
+        : 'В этом разделе отображается история ваших заказов'}
     </p>
   </>
 );
